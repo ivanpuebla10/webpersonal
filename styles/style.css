@@ -23,6 +23,7 @@
   text-align: center;
   cursor: pointer;
   transition: height 4s;
+  width: 100%;
 }
 
 .naveg a:hover {
@@ -119,7 +120,21 @@ iframe {
 
 .videos{
     padding: 0 80px;
+    background-color: rgb(212, 215, 245);
 }
+
+h4, #trys, #tackles {
+    background-color: rgb(212, 215, 245);
+}
+
+.mundial {
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
 .video-responsive {
 	height: 0;
 	overflow: hidden;
@@ -127,6 +142,7 @@ iframe {
 	padding-top: 30px;
 	position: relative;
 	}
+
 .video-responsive iframe, .video-responsive object, .video-responsive embed {
 	height: 100%;
 	left: 0;
@@ -151,3 +167,21 @@ iframe {
     .pinfo:hover {
         width: 1000px;
     }
+
+    p {
+        text-align: justify;
+    }
+
+    p#porta {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    #intro  {
+        background-color: rgb(212, 215, 245); 
+        text-align: justify;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    
