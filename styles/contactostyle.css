@@ -1,0 +1,57 @@
+/* Color de fondo general de la pagina y fuente */
+* {
+    background-color: rgb(170, 185, 212);
+    font-family: 'Playfair Display', serif;    
+}
+
+/* Navegador sin subrayado y tamaño */
+.naveg {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between ;
+    background-color: #333;
+}
+
+.naveg a {
+  color: white;
+  background-color: #333;
+  font-size: 25px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: height 4s;
+}
+
+.naveg a:hover {
+    background-color: #ddd;
+    color: black;
+    height: 50px;
+}
+
+.casilla {
+    background-color:rgb(213, 212, 218);
+}
+
+.pinfo {
+    background-color:rgb(213, 212, 218);
+    transition: width 4s;
+}
+
+.pinfo:hover {
+    width: 1000px;
+}
+
+h2 {
+    display: flex;
+    padding: 30px 30px 5px 30px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+fieldset, label, legend {
+    background-color:rgb(187, 195, 209)
+}
