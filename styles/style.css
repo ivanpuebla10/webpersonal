@@ -5,7 +5,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-/* Arreglar nav para movil, cambie en .naveg 100 por 90 y en .naveg a agregue ese width */
+/* Arreglar nav para movil, le agregue el wrap */
 .naveg {
     display: flex;
     position: fixed;
@@ -15,6 +15,7 @@
     justify-content: space-between ;
     background-color: #333;
     z-index: 999;    
+    flex-wrap: wrap;
 }
 
 .naveg a {
@@ -26,7 +27,6 @@
   text-align: center;
   cursor: pointer;
   transition: height 4s;
-  width: 90%;
 }
 
 .naveg a:hover {
@@ -41,10 +41,10 @@
     to {font-size: 50px;}
   }
 
-/* Quitar vibraciones */  
+/* Quitar vibraciones(le cambie el padding superior de 50 a 80 por el wrap del nav) */  
 h1 {
     display: flex;
-    padding: 50px 50px 10px 50px;
+    padding: 105px 50px 10px 50px;
     justify-content: center;
     color:rgb(21, 26, 26);
     font-family: fantasy;
@@ -221,5 +221,3 @@ h4, #trys, #tackles {
     .bio {
         background-color: rgb(212, 215, 245);
     }
-
-    
