@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
     background-color: rgb(170, 185, 212);
     font-family: 'Playfair Display', serif;
@@ -83,14 +85,19 @@ h3 {
     font-size: 25px;
 }
 
-li, strong {
+li {
+    background-color: rgb(212, 215, 245);
+    padding: 15px;
+}
+
+strong {
     background-color: rgb(212, 215, 245);
 }
 
 img {
     width: 200px;
     height: 200px;
-    padding: 15px;
+    padding: 0px;
 
 }
 
@@ -206,6 +213,10 @@ h4, #trys, #tackles {
         font-size: 15px;
         font-style: italic;
         text-align: justify;
+    }
+
+    .bio {
+        background-color: rgb(212, 215, 245);
     }
 
     
