@@ -71,6 +71,7 @@ h2 {
 ul {
     line-height: 20px;
     list-style: circle;
+    background-color: rgb(212, 215, 245);
 }
 
 ::marker {
@@ -151,14 +152,17 @@ h4, #trys, #tackles {
 	width: 100%;
 	}
 
-    .formu {
-        box-sizing: border-box;
-        display: inline-block;
+    .boxinfo {
+        display: flex;
+        align-items: center;
         background-color: rgb(187, 195, 209);
     }
 
-    label, legend {
-        display: inline-block;
+    .boxinfo label {
+        width: 80px;
+    }
+
+    label, legend, .formu {
         background-color:rgb(187, 195, 209);
         margin: 20px;
     }
@@ -169,11 +173,17 @@ h4, #trys, #tackles {
     
     .pinfo {
         background-color:rgb(213, 212, 218);
-        transition: width 4s;
+        width: 30%;
+        transition: all ease-in 1s;
     }
     
     .pinfo:hover {
-        width: 1000px;
+        width: 90%;
+        transition: all ease-in 1s;
+    }
+    
+    .botones {
+        margin: 20px;
     }
 
     p {
