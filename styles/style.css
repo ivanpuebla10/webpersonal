@@ -11,13 +11,13 @@
     width: 100%;
     justify-content: space-between ;
     background-color: #333;
-    z-index: 999;
+    z-index: 999;    
 }
 
 .naveg a {
   color: white;
   background-color: #333;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px 20px;
   text-decoration: none;
   text-align: center;
@@ -44,7 +44,7 @@ h1 {
     color:rgb(21, 26, 26);
     font-family: fantasy;
     font-size: 50px;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: title;
 }
 
@@ -94,12 +94,11 @@ img {
 }
 
 .img1 {
-    text-align: center;
     display: block;
-    align-content: center;
-    width: 600px;
-    height: 400px;
     margin: auto;
+    text-align: center;
+    width: 50%;
+    height: auto;
 }
 
 .jugador {
@@ -119,7 +118,8 @@ iframe {
 }
 
 .videos{
-    padding: 0 80px;
+    padding: 0 120px;
+    margin: 10px;
     background-color: rgb(212, 215, 245);
 }
 
@@ -128,10 +128,10 @@ h4, #trys, #tackles {
 }
 
 .mundial {
-        overflow: hidden;
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     }
 
 
@@ -151,8 +151,16 @@ h4, #trys, #tackles {
 	width: 100%;
 	}
 
-    fieldset, label, legend {
-        background-color:rgb(187, 195, 209)
+    .formu {
+        box-sizing: border-box;
+        display: inline-block;
+        background-color: rgb(187, 195, 209);
+    }
+
+    label, legend {
+        display: inline-block;
+        background-color:rgb(187, 195, 209);
+        margin: 20px;
     }
 
     .casilla {
@@ -182,6 +190,12 @@ h4, #trys, #tackles {
         text-align: justify;
         margin: 10px;
         padding: 10px;
+    }
+
+    .foot {
+        font-size: 15px;
+        font-style: italic;
+        text-align: justify;
     }
 
     

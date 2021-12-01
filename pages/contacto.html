@@ -26,44 +26,47 @@
 
     <section>
         <form>
-            <fieldset>
+            <fieldset class="formu">
                 <legend>Informacion Personal</legend>
-                <label for="fname">Nombre</label><br>
-                <input tabindex="1" type="text" id="fname" name="fname" autofocus="autofocus" placeholder="Nombre" class="pinfo"><br>
-                <label for="lname">Apellidos</label><br>
-                <input type="text" id="lname" lastname="lname" placeholder="Apellidos" class="pinfo"><br>
-                <label for="age">Edad</label><br>
-                <input type="number" id="age" age="age" placeholder="Edad" class="pinfo"><br><br>
+                <label for="fname">Nombre</label>
+                <input tabindex="1" type="text" id="fname" name="fname" autofocus="autofocus" placeholder="Nombre" class="pinfo">
+                <label for="lname">Apellidos</label>
+                <input type="text" id="lname" lastname="lname" placeholder="Apellidos" class="pinfo">
+                <label for="age">Edad</label>
+                <input type="number" id="age" age="age" placeholder="Edad" class="pinfo">
             </fieldset>
 
-            <fieldset>
+            <fieldset class="formu">
                 <legend>Informacion de contacto</legend>
-                <label for="phone">Telefono:</label><br>
-                <input type="tel" name="phone" id="phone" placeholder="(Codigo de area)+Numero" class="pinfo"><br>
-                <label for="email">Correo:</label><br>
-                <input type="email" id="email" name="email" placeholder="name@example.com" class="pinfo"><br><br>
+                <label for="phone">Telefono:</label>
+                <input type="tel" name="phone" id="phone" placeholder="(Codigo de area)+Numero" class="pinfo">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" class="pinfo">
              </fieldset>
 
-            <fieldset>
+            <fieldset class="formu">
                 <legend>Cuentanos un poco mas</legend>
-                    <label for="sex">Sobre que te gustaria recibir info?</label><br>
+                    <label for="sex">Sobre que te gustaria recibir info?</label>
                     <input type="radio" id="masculino" name="sex" value="MASCULINO" class="casilla">
-                    <label for="masculino">Rugby Masculino</label><br>
+                    <label for="masculino">Rugby Masculino</label>
                     <input type="radio" id="femenino" name="sex" value="FEMENINO" class="casilla">
-                    <label for="femenino">Rugby Femenino</label><br>
+                    <label for="femenino">Rugby Femenino</label>
                     <input type="radio" id="both" name="sex" value="BOTH" class="casilla">
-                    <label for="femenino">Ambos</label><br><br>
+                    <label for="femenino">Ambos</label>
             </fieldset>
 
             
             <label for="acepto">Acepto recibir informacion en mi correo electronico</label>
-            <input type="checkbox" id="acepto" name="acepto" value="" required class="casilla"><br><br>
+            <input type="checkbox" id="acepto" name="acepto" value="" required class="casilla">
 
-            <input type="reset" id="redo"><br><br>
+            <input type="reset" id="redo">
             <input type="submit" value="Enviar" id="send">
 
-            
         </form>
     </section>
+
+    <footer>
+        <p class="foot">Si tienes algun problema al enviar al formulario contactanos a <a href="mailto:rugbyinfo@gmail.com">rugbyinfo@gmail.com.</a></p>
+    </footer>
 </body>
 </html>
