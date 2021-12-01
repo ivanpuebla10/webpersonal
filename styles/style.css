@@ -5,7 +5,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-/* Arreglar nav para movil */
+/* Arreglar nav para movil, cambie en .naveg 100 por 90 y en .naveg a agregue ese width */
 .naveg {
     display: flex;
     position: fixed;
@@ -33,6 +33,7 @@
     background-color: #ddd;
     color: black;
     height: 50px;
+    width: 90%
 }
 
 @keyframes title {
