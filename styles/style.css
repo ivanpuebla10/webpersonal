@@ -5,6 +5,7 @@
     font-family: 'Playfair Display', serif;
 }
 
+/* Arreglar nav para movil */
 .naveg {
     display: flex;
     position: fixed;
@@ -25,7 +26,7 @@
   text-align: center;
   cursor: pointer;
   transition: height 4s;
-  width: 100%;
+  width: 90%;
 }
 
 .naveg a:hover {
@@ -39,9 +40,10 @@
     to {font-size: 50px;}
   }
 
+/* Quitar vibraciones */  
 h1 {
     display: flex;
-    padding: 50px 50px 10px 50px;;
+    padding: 50px 50px 10px 50px;
     justify-content: center;
     color:rgb(21, 26, 26);
     font-family: fantasy;
