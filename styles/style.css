@@ -67,11 +67,6 @@ h2 {
     height: auto;
 }
 
-.preglo > p {
-    font-weight: 550;
-    background-color: rgb(212, 215, 245);
-}
-
 ul {
     line-height: 20px;
     list-style: circle;
@@ -100,6 +95,7 @@ img {
     width: 200px;
     height: 200px;
     padding: 0px;
+    margin: 10px 20px;
 
 }
 
@@ -114,7 +110,7 @@ img {
 .jugador {
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 header > img {
@@ -142,7 +138,8 @@ h4, #trys, #tackles {
     width: 100%;
     margin: 0;
     padding: 0;
-    }
+    opacity: 0.8;
+}
 
 
 .video-responsive {
@@ -151,7 +148,7 @@ h4, #trys, #tackles {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	position: relative;
-	}
+}
 
 .video-responsive iframe, .video-responsive object, .video-responsive embed {
 	height: 100%;
@@ -159,64 +156,64 @@ h4, #trys, #tackles {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	}
+}
 
-    .boxinfo {
-        display: flex;
-        align-items: center;
-        background-color: rgb(187, 195, 209);
-    }
+.boxinfo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(187, 195, 209);
+}
 
-    .boxinfo label {
-        width: 80px;
-    }
+.boxinfo label {
+    width: 80px;
+}
 
-    label, legend, .formu {
-        background-color:rgb(187, 195, 209);
-        margin: 20px;
-    }
+label, legend, .formu {
+    background-color:rgb(187, 195, 209);
+    margin: 20px;
+}
 
-    .casilla {
-        background-color:rgb(213, 212, 218);
-    }
+.casilla {
+    background-color:rgb(213, 212, 218);
+}
     
-    .pinfo {
-        background-color:rgb(213, 212, 218);
-        width: 30%;
-        transition: all ease-in 1s;
-    }
+.pinfo {
+    background-color:rgb(213, 212, 218);
+    width: 30%;
+    transition: all ease-in 1s;
+}
     
-    .pinfo:hover {
-        width: 90%;
-        transition: all ease-in 1s;
-    }
+.pinfo:hover {
+    width: 90%;
+    transition: all ease-in 1s;
+}
     
-    .botones {
-        margin: 20px;
-    }
+.botones {
+    margin: 20px;
+}
 
-    p {
-        text-align: justify;
-    }
+p {
+    text-align: justify;
+}
 
-    p#porta {
-        text-align: center;
-        font-size: 17px;
-    }
+p#porta {
+    text-align: center;
+    font-size: 17px;
+}
 
-    #intro  {
-        background-color: rgb(212, 215, 245); 
-        text-align: justify;
-        margin: 10px;
-        padding: 10px;
-    }
+#intro, .preglo > p   {
+    background-color: rgb(212, 215, 245); 
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
 
-    .foot {
-        font-size: 15px;
-        font-style: italic;
-        text-align: justify;
-    }
+.foot {
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+}
 
-    .bio {
-        background-color: rgb(212, 215, 245);
-    }
+.bio {
+    background-color: rgb(212, 215, 245);
+}
