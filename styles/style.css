@@ -212,6 +212,7 @@ p#porta {
     font-size: 13px;
     font-style: italic;
     text-align: justify;
+    padding: 30px 5px 5px 5px;
 }
 
 .bio {
