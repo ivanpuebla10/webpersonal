@@ -69,7 +69,30 @@ h2 {
 
 ul {
     line-height: 20px;
-    list-style: circle;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: justify;
+    margin: 20px;
+}
+
+.lista > li {
+    
+    text-align: justify;
+    margin: 20px;
+    padding: 30px;
+}
+
+.lista > li > div {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(212, 215, 245);
 }
 
@@ -96,6 +119,7 @@ img {
     height: 200px;
     padding: 0px;
     margin: 10px 20px;
+    text-align: center;
 
 }
 
