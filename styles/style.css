@@ -32,16 +32,15 @@
 .naveg a:hover {
     background-color: #ddd;
     color: black;
-    height: 50px;
-    width: 90%
+    height: 40px;
+    width: 100px;
 }
 
 @keyframes title {
-    from {font-size: 30px;}
-    to {font-size: 50px;}
+    from {color: rgb(170, 185, 212);}
+    to {color: rgb(21, 26, 26);}
   }
 
-/* Quitar vibraciones(le cambie el padding superior de 50 a 80 por el wrap del nav) */  
 h1 {
     display: flex;
     padding: 105px 50px 10px 50px;
@@ -49,7 +48,7 @@ h1 {
     color:rgb(21, 26, 26);
     font-family: fantasy;
     font-size: 50px;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-name: title;
 }
 
