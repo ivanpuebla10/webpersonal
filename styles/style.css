@@ -80,7 +80,6 @@ ul {
 }
 
 .lista > li {
-    
     text-align: justify;
     margin: 20px;
     padding: 30px;
@@ -236,7 +235,17 @@ p#porta {
     font-size: 13px;
     font-style: italic;
     text-align: justify;
+    color: white;
     padding: 30px 5px 5px 5px;
+    background-color: rgb(63, 62, 62);
+    text-align: center;
+}
+
+.linkfoot {
+    background-color:rgb(63, 62, 62);
+    color: white;
+}
+
 }
 
 .bio {
