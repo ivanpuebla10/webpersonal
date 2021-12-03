@@ -3,6 +3,12 @@
 * {
     background-color: rgb(170, 185, 212);
     font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.gloss > h3 {
+    padding: 10px;
 }
 
 /* Arreglar nav para movil, le agregue el wrap */
@@ -81,7 +87,7 @@ ul {
 
 .lista > li {
     text-align: justify;
-    margin: 20px;
+    margin: 35px;
     padding: 30px;
 }
 
@@ -246,8 +252,10 @@ p#porta {
     color: white;
 }
 
+.biog > p, .biog > h3, .biog > ul, .biog > ol, .fig, .block-form {
+    margin: 15px;
+    padding: 10px;
 }
 
-.bio {
-    background-color: rgb(212, 215, 245);
-}
+
+
